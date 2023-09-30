@@ -1,14 +1,41 @@
-h1 {
-    color: #565a61 !important;
+h1,
+.subt,
+#parag {
+    color: black !important;
+
 }
+
+
+.navbar {
+    background-color: #6558CC !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+h3,
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #090909;
+}
+
 
 p,
 .headline {
     color: white !important;
 }
 
+
+
 body {
-    background-color: #FAF6FD;
+    background-color: #E6F5FF;
+
+}
+
+hr {
+    opacity: 0.15;
+    color: #565a61;
 }
 
 
@@ -38,4 +65,31 @@ body {
     background-position: center;
     background-size: cover;
     opacity: 0.5;
+}
+
+.btn {
+    background-color: #E3AD6D;
+    color: white !important;
+
+}
+
+.card {
+    width: 25rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    color: white;
+}
+
+.card-body {
+    background-color: #8D56E3;
+
+}
+
+.card-list-container {
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+
+.cont {
+    width: 60rem;
 }

@@ -1,4 +1,5 @@
 h1,
+h5,
 .subt,
 #parag {
     color: black !important;
@@ -34,8 +35,8 @@ body {
 }
 
 hr {
-    opacity: 0.15;
-    color: #565a61;
+    opacity: 0.1;
+
 }
 
 
@@ -81,8 +82,8 @@ hr {
 
 .card-body {
     background-color: #8D56E3;
-
 }
+
 
 .card-list-container {
     max-height: 550px;
@@ -92,4 +93,15 @@ hr {
 
 .cont {
     width: 60rem;
+}
+
+#socials {
+    color: black;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
 }

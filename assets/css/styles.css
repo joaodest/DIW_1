@@ -74,6 +74,11 @@ hr {
 
 }
 
+.btn:hover{
+    background-color: #6558CC;
+
+}
+
 .card {
     width: 25rem;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
@@ -105,3 +110,15 @@ hr {
     font-size: 24px;
     text-decoration: none;
 }
+
+#article {
+    width: 25rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+#article .card-body {
+    background-color: white;
+    color: #777;
+}
+
+ 

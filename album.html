@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/113fc1b747.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Geek Center</title>
+</head>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><h3>Geek Center</h3></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Noticias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./album.html">Em alta!</a></li>
+                            <li><a class="dropdown-item" href="#">Em breve...</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Em breve...</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procurando algo?" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container-fluid p-3 ">
+        <div class="row">
+            <div class="col">
+                <h1>Confira nossas últimas notícias</h1>
+                <hr>
+                <p id="parag">Fique por dentro das últimas notícias da Geek Center, desde parcerias a eventos, até shows
+                    e atualizações e nossos aplicativos!</p>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                id="article" style="background-color: white;  height: 35rem; width: 40rem;">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/satoru-gojo-death-jujutsu-kaisen-236.jpg"
+                    alt="" class="card-img-top">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0" style="color: #777;">Satoru Gojo fora do jogo!</h4>
+                        <div class="mb-1 text-body-secondary"> Set 25</div>
+                        <p class="card-text mb-auto" id="parag">Após perder a luta contra Sukuna, Satoru Gojo é
+                            derrotado!
+                            Qual
+                            rumo a obra tomará a partir de agora?</p>
+                        <a href="./noticias/noticia-morte-gojo.html" class="btn btn-outline-dark float-md-end">Leia
+                            mais!</a>
+                        </h4>
+                </div>
+                </img>
+            </div>
+        </div>
+
+        <div class="col col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                id="article" style="background-color: white; height: 35rem; width: 40rem;">
+                <img src="./assets/img/pikachu.png" alt="" class="card-img-top">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0" style="color: #777;">Colaboração Pokémon e Museu Van Gogh</h4>
+                        <div class="mb-1 text-body-secondary"> Set 28</div>
+                        <p class="card-text mb-auto" id="parag">A colaboração celebra os 50 anos do Museu Van Gogh.</p>
+                        <a href="./noticias/noticia-van-gogh.html" class="btn btn-outline-dark float-md-end">Leia
+                            mais!</a>
+
+                </div>
+                </img>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<footer class="row py-5 my-3 border-top">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <img style="height:auto;" alt="Profile-picture" src="https://avatars.githubusercontent.com/u/92491011?v=4"
+            width="160" height="260" class="avatar rounded-circle avatar-user width-full border color-bg-default">
+        <h1 class="text-body-emphasis">João Paulo Dias Estevão</h1>
+        <h4 class="text-body-emphasis">Graduando Ciência da Computação</h4>
+        <p class="col-lg-8 mx-auto fs-5 text-muted">
+            Site criado para o primeiro trabalho prático de TIAW - PUC Minas
+        </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/joaodest" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/joaodest" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/aka_jao" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
